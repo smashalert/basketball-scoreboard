@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "basketball";
+    src: url("basketball.ttf");
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("images/background.png");
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#title {
+    text-align: center;
+    width: 450px;
+    color: white;
+    background: rgba(45,106,79,1);
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-shadow: 0px 0px 4px black;
+    margin-bottom: 8px;
+    box-shadow: 0px 8px #081C15;
+}
+
+.box {
+    width: 450px;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(45,106,79,1) 0%, rgba(27,67,50,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px #081C15;
+
+}
+
+#reset {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #52B788;
+    border: 1px solid #B7E4C7;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 4px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+#reset:hover {
+    background: #40916C;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    margin-top: 0px;
+}
+
+.home {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.guest {
+    width: 100px;
+    margin-top: 20px;
+}
+
+#home-txt {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    text-shadow: 0px 0px 4px black;
+}
+
+#guest-txt {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    text-shadow: 0px 0px 4px black;
+}
+
+#home-score {
+    font-family: "basketball";
+    font-size: 50px;
+    color: red;
+    background: black;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    border: 4px solid #B7E4C7;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 6px black;
+}
+
+#guest-score {
+    font-family: "basketball";
+    font-size: 50px;
+    color: red;
+    background: black;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    border: 4px solid #B7E4C7;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 6px black;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.guest-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+#home-buttons-styling {
+    background: #52B788;
+    border: 1px solid #B7E4C7;
+    border-radius: 5px;
+    font-family: "basketball";
+    padding: 5px 5px;
+    box-shadow: 0px 0px 4px black;
+
+}
+
+.guest-buttons-styling {
+    background: #52B788;
+    border: 1px solid #B7E4C7;
+    border-radius: 5px;
+    font-family: "basketball";
+    padding: 5px 5px;
+    box-shadow: 0px 0px 4px black;
+
+}
+
+.guest-buttons-styling:hover {
+    background: #40916C;
+}
+
+#home-buttons-styling:hover {
+    background: #40916C;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    font-family: "basketball";
+    font-size: 20px;
+    color: red;
+    background: black;
+    padding: 15px 10px;
+    border: 4px solid #B7E4C7;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 6px black;
+}
+
+#timer-txt {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    text-shadow: 0px 0px 4px black;
+}
